@@ -61,7 +61,7 @@
 <h2><span id="History" class="mw-headline">History</span></h2>
 <p>&nbsp;</p>
 <div class="thumb tright">
-<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:BjarneStroustrup.jpg"><img class="thumbimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BjarneStroustrup.jpg/220px-BjarneStroustrup.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/BjarneStroustrup.jpg/330px-BjarneStroustrup.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/d/da/BjarneStroustrup.jpg 2x" alt="" width="220" height="165" data-file-width="432" data-file-height="324" /></a>
+<div class="thumbinner"><a class="image" href="bk.jpg"><img class="thumbimage" src="bk.jpg" srcset="bk.jpg" alt="" width="220" height="165" data-file-width="432" data-file-height="324" /></a>
 <div class="thumbcaption">
 <div class="magnify">&nbsp;</div>
 <strong>Bjarne Stroustrup, the creator of C++, in his AT&amp;T New Jersey office c. 2000</strong></div>
@@ -75,7 +75,7 @@
 <p>In 1989, C++ 2.0 was released, followed by the updated second edition of&nbsp;<em>The C++ Programming Language</em>&nbsp;in 1991.&nbsp;New features in 2.0 included multiple inheritance, abstract classes, static member functions,&nbsp;<a class="mw-redirect" title="Const correctness" href="https://en.wikipedia.org/wiki/Const_correctness">const member functions</a>, and protected members. In 1990,&nbsp;<em>The Annotated C++ Reference Manual</em>&nbsp;was published. This work became the basis for the future standard. Later feature additions included&nbsp;<a class="mw-redirect" title="Template (programming)" href="https://en.wikipedia.org/wiki/Template_(programming)">templates</a>,&nbsp;<a title="Exception handling" href="https://en.wikipedia.org/wiki/Exception_handling">exceptions</a>,&nbsp;<a class="mw-redirect" title="Namespaces" href="https://en.wikipedia.org/wiki/Namespaces">namespaces</a>, new&nbsp;<a class="mw-redirect" title="Cast (computer science)" href="https://en.wikipedia.org/wiki/Cast_(computer_science)">casts</a>, and a&nbsp;<a class="mw-redirect" title="Boolean datatype" href="https://en.wikipedia.org/wiki/Boolean_datatype">boolean type</a>.</p>
 <p>&nbsp;</p>
 <div class="thumb tleft">
-<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg"><img class="thumbimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg/220px-20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg/330px-20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg/440px-20160121_CppFRUG_Joel_Falcou_CppQuiz_3.jpg 2x" alt="" width="220" height="171" data-file-width="1600" data-file-height="1247" /></a>
+<div class="thumbinner"><a class="image" href="bh.jpg"><img class="thumbimage" src="bh.jpg" srcset="bh.jpg" alt="" width="220" height="171" data-file-width="1600" data-file-height="1247" /></a>
 <div class="thumbcaption">
 <div class="magnify"><strong>&nbsp;</strong></div>
 <strong>A quiz on C++11 features being given in Paris in 2015</strong></div>
