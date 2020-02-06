@@ -197,26 +197,10 @@
   
 ```C language
 #include <iostream>
-#include <vector>
-#include <stdexcept>
 
-int main() {
-    try {
-        std::vector<int> vec{3, 4, 3, 1};
-        int i{vec.at(4)}; // Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)
-    }
-    // An exception handler, catches std::out_of_range, which is thrown by vec.at(4)
-    catch (std::out_of_range &e) {
-        std::cerr << "Accessing a non-existent element: " << e.what() << '\n';
-    }
-    // To catch any other standard library exceptions (they derive from std::exception)
-    catch (std::exception &e) {
-        std::cerr << "Exception thrown: " << e.what() << '\n';
-    }
-    // Catch any unrecognised exceptions (i.e. those which don't derive from std::exception)
-    catch (...) {
-        std::cerr << "Some fatal error\n";
-    }
+int main()
+{
+    std::cout << "Hello, world!\n";
 }
 ```
 
@@ -325,36 +309,40 @@ int main() {
 <p>Some C++ style guides, such as Google's,&nbsp;LLVM's,&nbsp;and Qt's&nbsp;forbid the usage of exceptions.</p>
 <p>The exception-causing code is placed inside a&nbsp;<code class="mw-highlight" dir="ltr"><span class="k">try</span></code>&nbsp;block. The exceptions are handled in separate&nbsp;<code class="mw-highlight" dir="ltr"><span class="k">catch</span></code>&nbsp;blocks (the handlers); each&nbsp;<code class="mw-highlight" dir="ltr"><span class="k">try</span></code>&nbsp;block can have multiple exception handlers, as it is visible in the example below.</p>
 <div class="mw-highlight mw-content-ltr" dir="ltr">
-<pre><span class="lineno"> 1 </span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span>
-<span class="lineno"> 2 </span><span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span>
-<span class="lineno"> 3 </span><span class="cp">#include</span> <span class="cpf">&lt;stdexcept&gt;</span>
-<span class="lineno"> 4 </span>
-<span class="lineno"> 5 </span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="lineno"> 6 </span>    <span class="k">try</span> <span class="p">{</span>
-<span class="lineno"> 7 </span>        <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">vec</span><span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">};</span>
-<span class="lineno"> 8 </span>        <span class="kt">int</span> <span class="n">i</span><span class="p">{</span><span class="n">vec</span><span class="p">.</span><span class="n">at</span><span class="p">(</span><span class="mi">4</span><span class="p">)};</span> <span class="c1">// Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)</span>
-<span class="lineno"> 9 </span>    <span class="p">}</span>
-<span class="lineno">10 </span>    <span class="c1">// An exception handler, catches std::out_of_range, which is thrown by vec.at(4)</span>
-<span class="lineno">11 </span>    <span class="k">catch</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">out_of_range</span> <span class="o">&amp;</span><span class="n">e</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">12 </span>        <span class="n">std</span><span class="o">::</span><span class="n">cerr</span> <span class="o">&lt;&lt;</span> <span class="s">"Accessing a non-existent element: "</span> <span class="o">&lt;&lt;</span> <span class="n">e</span><span class="p">.</span><span class="n">what</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="sc">'\n'</span><span class="p">;</span>
-<span class="lineno">13 </span>    <span class="p">}</span>
-<span class="lineno">14 </span>    <span class="c1">// To catch any other standard library exceptions (they derive from std::exception)</span>
-<span class="lineno">15 </span>    <span class="k">catch</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">exception</span> <span class="o">&amp;</span><span class="n">e</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">16 </span>        <span class="n">std</span><span class="o">::</span><span class="n">cerr</span> <span class="o">&lt;&lt;</span> <span class="s">"Exception thrown: "</span> <span class="o">&lt;&lt;</span> <span class="n">e</span><span class="p">.</span><span class="n">what</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="sc">'\n'</span><span class="p">;</span>
-<span class="lineno">17 </span>    <span class="p">}</span>
-<span class="lineno">18 </span>    <span class="c1">// Catch any unrecognised exceptions (i.e. those which don't derive from std::exception)</span>
-<span class="lineno">19 </span>    <span class="k">catch</span> <span class="p">(...)</span> <span class="p">{</span>
-<span class="lineno">20 </span>        <span class="n">std</span><span class="o">::</span><span class="n">cerr</span> <span class="o">&lt;&lt;</span> <span class="s">"Some fatal error</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
-<span class="lineno">21 </span>    <span class="p">}</span>
-<span class="lineno">22 </span><span class="p">}</span>
-</pre>
+
+```C language
+#include <iostream>
+#include <vector>
+#include <stdexcept>
+
+int main() {
+    try {
+        std::vector<int> vec{3, 4, 3, 1};
+        int i{vec.at(4)}; // Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)
+    }
+    // An exception handler, catches std::out_of_range, which is thrown by vec.at(4)
+    catch (std::out_of_range &e) {
+        std::cerr << "Accessing a non-existent element: " << e.what() << '\n';
+    }
+    // To catch any other standard library exceptions (they derive from std::exception)
+    catch (std::exception &e) {
+        std::cerr << "Exception thrown: " << e.what() << '\n';
+    }
+    // Catch any unrecognised exceptions (i.e. those which don't derive from std::exception)
+    catch (...) {
+        std::cerr << "Some fatal error\n";
+    }
+}
+```
+  
+
 </div>
 <p>It is also possible to raise exceptions purposefully, using the&nbsp;<code class="mw-highlight" dir="ltr"><span class="k">throw</span></code>&nbsp;keyword; these exceptions are handled in the usual way. In some cases, exceptions cannot be used due to technical reasons. One such example is a critical component of an embedded system, where every operation must be guaranteed to complete within a specified amount of time. This cannot be determined with exceptions as no tools exist to determine the maximum time required for an exception to be handled.</p>
 <p>Unlike&nbsp;<a class="mw-redirect" title="Signal handler" href="https://en.wikipedia.org/wiki/Signal_handler">signal handling</a>, in which the handling function is called from the point of failure, exception handling exits the current scope before the catch block is entered, which may be located in the current function or any of the previous function calls currently on the stack.</p>
 <h2><span id="Standard_library" class="mw-headline">Standard library</span></h2>
 <p>&nbsp;</p>
 <div class="thumb tright">
-<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:ANSI_ISO_C%2B%2B_WP.jpg"><img class="thumbimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/ANSI_ISO_C%2B%2B_WP.jpg/220px-ANSI_ISO_C%2B%2B_WP.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/ANSI_ISO_C%2B%2B_WP.jpg/330px-ANSI_ISO_C%2B%2B_WP.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/30/ANSI_ISO_C%2B%2B_WP.jpg/440px-ANSI_ISO_C%2B%2B_WP.jpg 2x" alt="" width="220" height="165" data-file-width="4032" data-file-height="3024" /></a>
+<div class="thumbinner"><a class="image" href="m2.jpg"><img class="thumbimage" src="m2.jpg" srcset="m2.jpg" alt="" width="220" height="165" data-file-width="4032" data-file-height="3024" /></a>
 <div class="thumbcaption">
 <div class="magnify">&nbsp;</div>
 <strong>The draft "Working Paper" standard that became approved as C++98; half of its size was devoted to the C++ Standard Library</strong></div>
@@ -371,7 +359,7 @@ int main() {
 <p>To give compiler vendors greater freedom, the C++ standards committee decided not to dictate the implementation of&nbsp;<a title="Name mangling" href="https://en.wikipedia.org/wiki/Name_mangling">name mangling</a>,&nbsp;<a title="Exception handling" href="https://en.wikipedia.org/wiki/Exception_handling">exception handling</a>, and other implementation-specific features. The downside of this decision is that&nbsp;<a title="Object code" href="https://en.wikipedia.org/wiki/Object_code">object code</a>&nbsp;produced by different&nbsp;<a title="Compiler" href="https://en.wikipedia.org/wiki/Compiler">compilers</a>&nbsp;is expected to be incompatible. There were, however, attempts to standardize compilers for particular machines or&nbsp;<a title="Operating system" href="https://en.wikipedia.org/wiki/Operating_system">operating systems</a>&nbsp;(for example C++ ABI),<sup id="cite_ref-70" class="reference"><a href="https://en.wikipedia.org/wiki/C%2B%2B#cite_note-70">[70]</a></sup>&nbsp;though they seem to be largely abandoned now.</p>
 <h3><span id="With_C" class="mw-headline">With C</span></h3>
 <div class="thumb tright">
-<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:C_slash_cpp.svg"><img class="thumbimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/C_slash_cpp.svg/130px-C_slash_cpp.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/C_slash_cpp.svg/195px-C_slash_cpp.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c2/C_slash_cpp.svg/260px-C_slash_cpp.svg.png 2x" alt="" width="130" height="130" data-file-width="100" data-file-height="100" /></a>
+<div class="thumbinner"><a class="image" href="m3.png"><img class="thumbimage" src="m3.png" srcset="m3.png" alt="" width="130" height="130" data-file-width="100" data-file-height="100" /></a>
 <div class="thumbcaption">
 <div class="magnify"><strong>&nbsp;</strong></div>
 <strong>The relationship of C++ to C has always been a bit problematic</strong></div>
