@@ -54,6 +54,7 @@
 </li>
 <li class="toclevel-1 tocsection-26"><a href="#Criticism"><span class="toctext">Criticism</span></a></li>
  <li class="toclevel-1 tocsection-26"><a href="#Papers"><span class="toctext">Papers</span></a></li> 
+  <li class="toclevel-1 tocsection-26"><a href="#Books"><span class="toctext">Books</span></a></li> 
 </ul>
 </br>
 
@@ -407,8 +408,73 @@ int main() {
 
 
 </ul>
+</br>
+
+<h2><span id="Books" class="mw-headline">Books:</span></h2> 
 
 
+
+<ul>
+
+                             
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(1).pdf" style="text-decoration:none;">Open Data Structures: An Introduction</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(2).pdf" style="text-decoration:none;">C++ Template Metaprogramming: Concepts, Tools, and Techniques from Boost and Beyond</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(3).pdf" style="text-decoration:none;">An Introduction to Design Patterns in C++ with Qt 4</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(4).pdf" style="text-decoration:none;">Practical Guide to Bare Metal C++</a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(5).pdf" style="text-decoration:none;">C++ In Action: Industrial-Strength Programming Techniques</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(6).pdf" style="text-decoration:none;">C++ Today: The Beast Is Back</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(7).pdf" style="text-decoration:none;">Data Structures and Algorithm Analysis</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(8).pdf" style="text-decoration:none;"> C++ for C Programmers</a></b></li>
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(9).pdf" style="text-decoration:none;">Computational Physics: A Practical Introduction to Computational Physics and Scientific Computing (using C++)</a></b></li>
+  
+   
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(10).pdf" style="text-decoration:none;">C++ Notes for Professionals</a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(11).pdf" style="text-decoration:none;">C++ Essentials</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(12).pdf" style="text-decoration:none;">C++ for Scientific Computing</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(13).pdf" style="text-decoration:none;">C Programming Tutorial</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(14).pdf" style="text-decoration:none;">Deep C (and C++)</a></b></li>
+                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(15).pdf" style="text-decoration:none;">C++ Hackers Guide</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(16).pdf" style="text-decoration:none;">How to Design Classes - Data: Structure and Organization</a></b></li>
+
+  <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(17).pdf" style="text-decoration:none;">Industrial Strength C++</a></b></li>   
+  
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(18).pdf" style="text-decoration:none;">More C++ Idioms</a></b></li> 
+
+  
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(19).pdf" style="text-decoration:none;">Optimizing software in C++</a></b></li> 
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(20).pdf" style="text-decoration:none;">Practical C++ Metaprogramming: Modern Techniques for Accelerated Development</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(21).pdf" style="text-decoration:none;">Fundamentals of Programming C++</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(22).pdf" style="text-decoration:none;">Programming Abstractions in C++</a></b></li> 
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(23).pdf" style="text-decoration:none;">Programming Fundamentals - A Modular Structured Approach using C++</a></b></li> 
+ 
+
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(24).pdf" style="text-decoration:none;">Financial Numerical Recipes in C++</a></b></li>
+ 
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(25).pdf" style="text-decoration:none;">Reverse Engineering for Beginners</a></b></li>                              
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(26).pdf" style="text-decoration:none;">Structured Programming with C++ </a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(27).pdf" style="text-decoration:none;">How to Think Like a Computer Scientist: C++ Version</a></b></li>
+   
+ 
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(28).pdf" style="text-decoration:none;">No Bugs!: Delivering Error Free Code in C and C++</a></b></li>
+ 
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(29).PDF" style="text-decoration:none;">3D Math Primer for Graphics and Game Development</a></b></li>                              
+
+  <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(30).pdf" style="text-decoration:none;">Compilers and Compiler Generators: an introduction with C++</a></b></li>
+ 
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(31).pdf" style="text-decoration:none;">C Elements of Style: The Programmer's Style Manual for Elegant C and C++ Programs</a></b></li> 
+    <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cpko(32).pdf" style="text-decoration:none;">Optimizing C++</a></b></li> 
+
+  
+</ul>
 
 
 
