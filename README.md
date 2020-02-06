@@ -393,7 +393,7 @@ int main() {
 <p>Other complaints may include a lack of&nbsp;<a title="Reflection (computer programming)" href="https://en.wikipedia.org/wiki/Reflection_(computer_programming)">reflection</a>&nbsp;or&nbsp;<a title="Garbage collection (computer science)" href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage collection</a>, long compilation times, perceived&nbsp;<a title="Feature creep" href="https://en.wikipedia.org/wiki/Feature_creep">feature creep</a>,&nbsp;and verbose error messages, particularly from template metaprogramming.</p>
 
 
-<h3><span id="Papers" class="mw-headline">Papers:</span></h3>
+<h2><span id="Papers" class="mw-headline">Papers:</span></h2> 
 
 <ul>
 
