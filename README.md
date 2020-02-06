@@ -53,6 +53,7 @@
 </ul>
 </li>
 <li class="toclevel-1 tocsection-26"><a href="#Criticism"><span class="toctext">Criticism</span></a></li>
+ <li class="toclevel-1 tocsection-26"><a href="#Papers"><span class="toctext">Papers</span></a></li> 
 </ul>
 </br>
 
@@ -390,3 +391,33 @@ int main() {
 </blockquote>
 <p>Stroustrup himself comments that C++ semantics are much cleaner than its syntax: "within C++, there is a much smaller and cleaner language struggling to get out".</p>
 <p>Other complaints may include a lack of&nbsp;<a title="Reflection (computer programming)" href="https://en.wikipedia.org/wiki/Reflection_(computer_programming)">reflection</a>&nbsp;or&nbsp;<a title="Garbage collection (computer science)" href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage collection</a>, long compilation times, perceived&nbsp;<a title="Feature creep" href="https://en.wikipedia.org/wiki/Feature_creep">feature creep</a>,&nbsp;and verbose error messages, particularly from template metaprogramming.</p>
+
+
+<h3><span id="Papers" class="mw-headline">Papers:</span></h3>
+
+<ul>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cppl(16).pdf" style="text-decoration:none;">A History of C++: 1979 − 1991</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cppl(17).pdf" style="text-decoration:none;">Evolving a language in and for the real world: C++ 1991-2006</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cppl(18).pdf" style="text-decoration:none;">Chapel Language Specification, Version 0.98</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cppl(19).pdf" style="text-decoration:none;">Working Draft, Standard for Programming Language C++</a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Plus-Plus-Programming-Books/blob/master/cppl(20).pdf" style="text-decoration:none;">C and C++: Exceptions | Templates</a></b></li>
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
