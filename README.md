@@ -87,5 +87,98 @@
 <p>As of 2019, C++ is now the fourth most popular programming language, behind&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>, C, and&nbsp;<a title="Python (programming language)" href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>.</p>
 <p>On January 3, 2018, Stroustrup was announced as the 2018 winner of the&nbsp;<a title="Charles Stark Draper Prize" href="https://en.wikipedia.org/wiki/Charles_Stark_Draper_Prize">Charles Stark Draper Prize</a>&nbsp;for Engineering, "for conceptualizing and developing the C++ programming language".</p>
 
-
+<h3><span id="Etymology" class="mw-headline">Etymology</span></h3>
+<p>According to Stroustrup, "the name signifies the evolutionary nature of the changes from C".&nbsp;This name is credited to Rick Mascitti (mid-1983)&nbsp;and was first used in December 1983. When Mascitti was questioned informally in 1992 about the naming, he indicated that it was given in a&nbsp;<a title="Tongue-in-cheek" href="https://en.wikipedia.org/wiki/Tongue-in-cheek">tongue-in-cheek</a>&nbsp;spirit. The name comes from C's&nbsp;<code class="mw-highlight" dir="ltr"><span class="o">++</span></code>&nbsp;<a class="mw-redirect" title="Operator (programming)" href="https://en.wikipedia.org/wiki/Operator_(programming)">operator</a>&nbsp;(which&nbsp;<a title="Increment and decrement operators" href="https://en.wikipedia.org/wiki/Increment_and_decrement_operators">increments</a>&nbsp;the&nbsp;<a title="Value (computer science)" href="https://en.wikipedia.org/wiki/Value_(computer_science)">value</a>&nbsp;of a&nbsp;<a class="mw-redirect" title="Variable (programming)" href="https://en.wikipedia.org/wiki/Variable_(programming)">variable</a>) and a common&nbsp;<a title="Naming convention" href="https://en.wikipedia.org/wiki/Naming_convention">naming convention</a>&nbsp;of using "+" to indicate an enhanced computer program.</p>
+<p>During C++'s development period, the language had been referred to as "new C" and "C with Classes"&nbsp;before acquiring its final name.</p>
+<h3><span id="Philosophy" class="mw-headline">Philosophy</span></h3>
+<p>Throughout C++'s life, its development and evolution has been guided by a set of principles:</p>
+<ul>
+<li>It must be driven by actual problems and its features should be immediately useful in real world programs.</li>
+<li>Every feature should be implementable (with a reasonably obvious way to do so).</li>
+<li>Programmers should be free to pick their own programming style, and that style should be fully supported by C++.</li>
+<li>Allowing a useful feature is more important than preventing every possible misuse of C++.</li>
+<li>It should provide facilities for organising programs into separate, well-defined parts, and provide facilities for combining separately developed parts.</li>
+<li>No implicit violations of the&nbsp;<a title="Type system" href="https://en.wikipedia.org/wiki/Type_system">type system</a>&nbsp;(but allow explicit violations; that is, those explicitly requested by the programmer).</li>
+<li>User-created types need to have the same support and performance as built-in types.</li>
+<li>Unused features should not negatively impact created executables (e.g. in lower performance).</li>
+<li>There should be no language beneath C++ (except&nbsp;<a title="Assembly language" href="https://en.wikipedia.org/wiki/Assembly_language">assembly language</a>).</li>
+<li>C++ should work alongside other existing&nbsp;<a title="Programming language" href="https://en.wikipedia.org/wiki/Programming_language">programming languages</a>, rather than fostering its own separate and incompatible&nbsp;<a class="mw-redirect" title="Programming environment" href="https://en.wikipedia.org/wiki/Programming_environment">programming environment</a>.</li>
+<li>If the programmer's intent is unknown, allow the programmer to specify it by providing manual control.</li>
+</ul>
+<p>&nbsp;</p>
+<h3><span id="Standardization" class="mw-headline">Standardization</span></h3>
+<p>&nbsp;</p>
+<div class="thumb tleft">
+<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg"><img class="thumbimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg/220px-C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg/330px-C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg/440px-C%2B%2B_Standards_Committee_meeting_-_July_1996_Stockholm_-_Wednesday_general_session.jpg 2x" alt="" width="220" height="140" data-file-width="1579" data-file-height="1005" /></a>
+<div class="thumbcaption">
+<div class="magnify">&nbsp;</div>
+<strong>Scene during the C++ Standards Committee meeting in Stockholm in 1996</strong></div>
+<div class="thumbcaption">&nbsp;</div>
+<div class="thumbcaption">&nbsp;</div>
+</div>
+</div>
+<table class="wikitable floatright">
+<tbody>
+<tr>
+<th>Year</th>
+<th>C++ Standard</th>
+<th>Informal name</th>
+</tr>
+<tr>
+<th>1998</th>
+<td>ISO/IEC 14882:1998</td>
+<td>C++98</td>
+</tr>
+<tr>
+<th>2003</th>
+<td>ISO/IEC 14882:2003</td>
+<td><a title="C++03" href="https://en.wikipedia.org/wiki/C%2B%2B03">C++03</a></td>
+</tr>
+<tr>
+<th>2011</th>
+<td>ISO/IEC 14882:2011</td>
+<td><a title="C++11" href="https://en.wikipedia.org/wiki/C%2B%2B11">C++11</a>, C++0x</td>
+</tr>
+<tr>
+<th>2014</th>
+<td>ISO/IEC 14882:2014</td>
+<td><a title="C++14" href="https://en.wikipedia.org/wiki/C%2B%2B14">C++14</a>, C++1y</td>
+</tr>
+<tr>
+<th>2017</th>
+<td>ISO/IEC 14882:2017</td>
+<td><a title="C++17" href="https://en.wikipedia.org/wiki/C%2B%2B17">C++17</a>, C++1z</td>
+</tr>
+<tr>
+<th>2020</th>
+<td>to be determined</td>
+<td><a title="C++20" href="https://en.wikipedia.org/wiki/C%2B%2B20">C++20</a>,&nbsp;C++2a</td>
+</tr>
+</tbody>
+</table>
+<p>C++ is standardized by an&nbsp;<a title="International Organization for Standardization" href="https://en.wikipedia.org/wiki/International_Organization_for_Standardization">ISO</a>&nbsp;working group known as&nbsp;<a title="ISO/IEC JTC 1/SC 22" href="https://en.wikipedia.org/wiki/ISO/IEC_JTC_1/SC_22">JTC1/SC22/WG21</a>. So far, it has published five revisions of the C++ standard and is currently working on the next revision,&nbsp;<a title="C++20" href="https://en.wikipedia.org/wiki/C%2B%2B20">C++20</a>.</p>
+<p>In 1998, the ISO working group standardized C++ for the first time as&nbsp;<em>ISO/IEC 14882:1998</em>, which is informally known as&nbsp;<em>C++98</em>. In 2003, it published a new version of the C++ standard called&nbsp;<em>ISO/IEC 14882:2003</em>, which fixed problems identified in C++98.</p>
+<p>The next major revision of the standard was informally referred to as "C++0x", but it was not released until 2011.&nbsp;<a title="C++11" href="https://en.wikipedia.org/wiki/C%2B%2B11">C++11</a>&nbsp;(14882:2011) included many additions to both the core language and the standard library.</p>
+<p>In 2014,&nbsp;<a title="C++14" href="https://en.wikipedia.org/wiki/C%2B%2B14">C++14</a>&nbsp;(also known as C++1y) was released as a small extension to&nbsp;<a title="C++11" href="https://en.wikipedia.org/wiki/C%2B%2B11">C++11</a>, featuring mainly bug fixes and small improvements.&nbsp;The Draft International Standard ballot procedures completed in mid-August 2014.</p>
+<p>After C++14, a major revision&nbsp;<a title="C++17" href="https://en.wikipedia.org/wiki/C%2B%2B17">C++17</a>, informally known as C++1z, was completed by the ISO C++ Committee in mid July 2017 and was approved and published in December 2017.</p>
+<p>As part of the standardization process, ISO also publishes&nbsp;<a title="International Organization for Standardization" href="https://en.wikipedia.org/wiki/International_Organization_for_Standardization#International_Standards_and_other_publications">technical reports and specifications</a>:</p>
+<ul>
+<li>ISO/IEC TR 18015:2006&nbsp;on the use of C++ in embedded systems and on performance implications of C++ language and library features,</li>
+<li>ISO/IEC TR 19768:2007&nbsp;(also known as the&nbsp;<a title="C++ Technical Report 1" href="https://en.wikipedia.org/wiki/C%2B%2B_Technical_Report_1">C++ Technical Report 1</a>) on library extensions mostly integrated into&nbsp;<a title="C++11" href="https://en.wikipedia.org/wiki/C%2B%2B11">C++11</a>,</li>
+<li>ISO/IEC TR 29124:2010&nbsp;on special mathematical functions,</li>
+<li>ISO/IEC TR 24733:2011 on&nbsp;<a title="Decimal floating point" href="https://en.wikipedia.org/wiki/Decimal_floating_point">decimal floating point</a>&nbsp;arithmetic,</li>
+<li>ISO/IEC TS 18822:2015 on the standard filesystem library,</li>
+<li>ISO/IEC TS 19570:2015&nbsp;on&nbsp;<a title="Parallel computing" href="https://en.wikipedia.org/wiki/Parallel_computing">parallel</a>&nbsp;versions of the standard library algorithms,</li>
+<li>ISO/IEC TS 19841:2015 on software&nbsp;<a title="Transactional memory" href="https://en.wikipedia.org/wiki/Transactional_memory">transactional memory</a>,</li>
+<li>ISO/IEC TS 19568:2015&nbsp;on a new set of library extensions, some of which are already integrated into&nbsp;<a title="C++17" href="https://en.wikipedia.org/wiki/C%2B%2B17">C++17</a>,</li>
+<li>ISO/IEC TS 19217:2015&nbsp;on the C++&nbsp;<a title="Concepts (C++)" href="https://en.wikipedia.org/wiki/Concepts_(C%2B%2B)">concepts</a>, integrated into&nbsp;<a title="C++20" href="https://en.wikipedia.org/wiki/C%2B%2B20">C++20</a></li>
+<li>ISO/IEC TS 19571:2016 on the library extensions for concurrency</li>
+<li>ISO/IEC TS 19568:2017&nbsp;on a new set of general-purpose library extensions</li>
+<li>ISO/IEC TS 21425:2017&nbsp;on the library extensions for ranges, integrated into&nbsp;<a title="C++20" href="https://en.wikipedia.org/wiki/C%2B%2B20">C++20</a></li>
+<li>ISO/IEC TS 22277:2017&nbsp;on coroutines</li>
+<li>ISO/IEC TS 19216:2018&nbsp;on the networking library</li>
+<li>ISO/IEC TS 21544:2018 on modules</li>
+<li>ISO/IEC TS 19570:2018&nbsp;on a new set of library extensions for parallelism</li>
+</ul>
+<p>More technical specifications are in development and pending approval, including static reflection.</p>
 
