@@ -183,7 +183,7 @@
 <h2><span id="Language" class="mw-headline">Language</span></h2>
 <p>&nbsp;</p>
 <div class="thumb tright">
-<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg"><img class="thumbimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg/220px-%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg/330px-%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg/440px-%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.jpg 2x" alt="" width="220" height="124" data-file-width="2560" data-file-height="1440" /></a>
+<div class="thumbinner"><a class="image" href="m1.jpg"><img class="thumbimage" src="m1.jpg" srcset="m1.jpg" alt="" width="220" height="124" data-file-width="2560" data-file-height="1440" /></a>
 <div class="thumbcaption">
 <div class="magnify">&nbsp;</div>
 <strong>A programmer writing a C++ main() function in 2018</strong></div>
@@ -194,13 +194,32 @@
 <p>C++ inherits most of&nbsp;<a title="C syntax" href="https://en.wikipedia.org/wiki/C_syntax">C's syntax</a>. The following is Bjarne Stroustrup's version of the&nbsp;<a class="mw-redirect" title="Hello world program" href="https://en.wikipedia.org/wiki/Hello_world_program">Hello world program</a>&nbsp;that uses the&nbsp;<a title="C++ Standard Library" href="https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library">C++ Standard Library</a>&nbsp;stream facility to write a message to&nbsp;<a class="mw-redirect" title="Standard output" href="https://en.wikipedia.org/wiki/Standard_output#Standard_output_(stdout)">standard output</a>:</p>
 <p>&nbsp;</p>
 <div class="mw-highlight mw-content-ltr" dir="ltr">
-<pre><span class="lineno">1 </span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span>
-<span class="lineno">2 </span>
-<span class="lineno">3 </span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="lineno">4 </span><span class="p">{</span>
-<span class="lineno">5 </span>    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello, world!</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
-<span class="lineno">6 </span><span class="p">}<br /></span>
-</pre>
+  
+```C language
+#include <iostream>
+#include <vector>
+#include <stdexcept>
+
+int main() {
+    try {
+        std::vector<int> vec{3, 4, 3, 1};
+        int i{vec.at(4)}; // Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)
+    }
+    // An exception handler, catches std::out_of_range, which is thrown by vec.at(4)
+    catch (std::out_of_range &e) {
+        std::cerr << "Accessing a non-existent element: " << e.what() << '\n';
+    }
+    // To catch any other standard library exceptions (they derive from std::exception)
+    catch (std::exception &e) {
+        std::cerr << "Exception thrown: " << e.what() << '\n';
+    }
+    // Catch any unrecognised exceptions (i.e. those which don't derive from std::exception)
+    catch (...) {
+        std::cerr << "Some fatal error\n";
+    }
+}
+```
+
 </div>
 <h3><span id="Object_storage" class="mw-headline">Object storage</span></h3>
 <p>As in C, C++ supports four types of&nbsp;<a title="Memory management" href="https://en.wikipedia.org/wiki/Memory_management">memory management</a>: static storage duration objects, thread storage duration objects, automatic storage duration objects, and dynamic storage duration objects.</p>
